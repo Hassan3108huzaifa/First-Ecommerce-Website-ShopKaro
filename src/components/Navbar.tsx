@@ -57,7 +57,7 @@ export default function Navbar() {
                         </Link>
                         <div className="hidden md:block">
                             <div className="ml-10 flex items-baseline space-x-4">
-                                {['Home', 'Products', 'Categories', 'Deals'].map((item) => (
+                                {['Home', 'Products', 'Categories'].map((item) => (
                                     <Link key={item} href={item === 'Home' ? '/' : `/${item.toLowerCase()}`} className="text-gray-600 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
                                         {item}
                                     </Link>
